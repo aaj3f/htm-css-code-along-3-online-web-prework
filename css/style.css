@@ -37,3 +37,17 @@ figcaption {
 }
 
 /* ID selector (apply to one unique element per page) */
+
+#logo { /* select elements with id="logo" */
+  background-color: aqua;
+}
+
+/* Descendent Selector */
+
+#logo h1 { /* select <h1> but only if inside the id="logo" element */
+  font-family: "Clicker Script", cursive;
+}
+
+#logo h2 {
+  font-family: "Elsie Swash Caps", cursive;
+}
